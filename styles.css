@@ -1,0 +1,306 @@
+/* ROOT */
+:root {
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --main-white-color: #fff;
+    --highlight-color: #2196f3;
+    --secondary-white-color: #f5f4f5;
+    --fill-color: #2f303a;
+    --button-active-color: #124e86;
+    --card-border-color: #eee;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  /* total page styles */
+  .main-body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text-color);
+  }
+  a {
+    text-decoration: none;
+    color: var(--main-text-color);
+  }
+  /* header*/
+  .header {
+    max-width: 1260px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  .nav,
+  .menu-elem,
+  .menu-item {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0 46px;
+  }
+  .logo-tytle {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 24px 68px 25px 0;
+    letter-spacing: 0.03em;
+  }
+  .logo {
+    color: var(--highlight-color);
+  }
+  .item-elem,
+  .menu-elem-cont {
+    padding: 32px 25px;
+    font-size: 14px;
+    line-height: 1.15;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .menu-elem-item {
+    color: var(--secondary-text-color);
+  }
+  .menu-elem-item:hover {
+    color: var(--highlight-color);
+  }
+  .item-cont {
+    color: var(--secondary-text-color);
+  }
+  .item-cont:hover {
+    color: var(--highlight-color);
+  }
+  
+ /* section 1 */
+  .hero {
+    background-color: var(--fill-color);
+    max-width: 1600px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero-tytle {
+    color: var(--main-white-color);
+    font-size: 44px;
+    line-height: 1.36;
+    padding-top: 200px;
+    padding-bottom: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  /* button */
+  .button-cont {
+    padding-top: 15px;
+    padding-bottom: 200px;
+  }
+  .main-button {
+    width: 216px;
+    height: 50px;
+    background-color: var(--highlight-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: var(--main-white-color);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .main-button:hover {
+    background-color: var(--button-active-color);
+    color: var(--secondary-white-color);
+  }
+  .main-button:active {
+    background-color: var(--secondary-white-color);
+    color: var(--main-text-color);
+  }
+  /* section 2 */
+  .hidden {
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+    width: 1260px;
+    margin: 94px auto;
+    justify-content: center;
+  }
+  .box-list {
+    text-align: left;
+    padding: 0 15px;
+  }
+  .box-name {
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .box-skills {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    padding-bottom: 10px;
+    letter-spacing: 0.03em;
+  }
+  /* section 3 */
+  .work {
+    text-align: center;
+    width: 100%;
+  }
+  .work-title {
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 50px;
+    letter-spacing: 0.03em;
+  }
+  .work-img {
+    display: flex;
+    justify-content: center;
+    padding: 0 215px;
+  
+  }
+  .img {
+    padding: 0 15px;
+  
+  }
+  /* section 4 */
+  .team {
+    text-align: center;
+    width: 100%;
+    padding-top: 94px;
+    background-color: var(--secondary-white-color);
+  }
+  .team-bg {
+    display: flex;
+    justify-content: center;
+    margin: 0 215px;
+  }
+  .team-box {
+    margin: 50px 15px 94px 15px;
+    background-color: var(--main-white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .name {
+    padding: 30px 0 5px 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+  .prof {
+    padding: 5px 0 30px 0;
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+  }
+  /* portfolio */
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1280px;
+    margin: auto;
+  }
+  .buttons-list {
+    display: flex;
+    flex-direction: row;
+    margin: 94px auto 0 auto;
+  }
+  .portfolio {
+    width: auto;
+    height: 38px;
+    background-color: var(--secondary-white-color);
+    color: var(--main-text-color);
+    border-radius: 4px;
+    padding: 6px 22px;
+    margin: 0 4px 25px 4px;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+    top: 1446px;
+  }
+  .portfolio:hover {
+    background-color: var(--highlight-color);
+    color: var(--main-white-color);
+  }
+  .portfolio:active {
+    background-color: var(--button-active-color);
+    color: var(--main-white-color);
+  }
+  .card {
+    margin: 0px auto;
+    width: 1218px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: centern;
+    margin-bottom: 94px;
+  }
+  .cards {
+    margin: 15px;
+    background-color: var(--main-white-color);
+    border: 1px solid var(--card-border-color);
+  }
+  .name {
+    margin: 20px 24px 2px 24px;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    line-height: 2;
+  }
+  .type {
+    margin: 2px 24px 20px 24px;
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    line-height: 1.875;
+  }
+  /* footer */
+  .footer {
+    background-color: var(--fill-color);
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    margin: auto;
+  }
+  .logo-tytle-footer {
+    font-family: "Raleway", sans-serif;
+    color: var(--main-white-color);
+    font-size: 26px;
+    font-weight: 700;
+    margin: 60px auto 20px 225px;
+    letter-spacing: 0.03em;
+  }
+  .footer-link {
+    color: var(--main-white-color);
+    margin-left: 185px;
+    letter-spacing: 0.03em;
+  }
+  .footer-link:hover {
+    color: var(--highlight-color)
+  }
+  .footer-links {
+    margin-left: 185px;
+    color: var(--secondary-text-color);
+    letter-spacing: 0.03em;
+  }
+  .footer-links:hover {
+    color: var(--highlight-color);
+  }
+  .footer-elem {
+    margin-bottom: 15px;
+  }
